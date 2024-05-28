@@ -12,4 +12,11 @@
     <maven.compiler.source>21</maven.compiler.source>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub RetroPipes Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/retropipes/diane-asset</url>
+   </repository>
+</distributionManagement>
 </project>
