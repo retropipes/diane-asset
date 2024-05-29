@@ -9,6 +9,4 @@ public interface DianeAssetIndex {
 	String getName();
 
 	URL getURL();
-
-	int ordinal();
 }
