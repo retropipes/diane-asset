@@ -5,7 +5,7 @@ package org.retropipes.diane.asset;
 
 import java.net.URL;
 
-public interface DianeAssetIndex {
+public interface DianeAssetIndex extends Ordinalizable {
 	String getName();
 
 	URL getURL();
