@@ -1,6 +1,8 @@
 package org.retropipes.diane.asset;
 
-public interface Ordinalizable {
+import java.io.Serializable;
+
+public interface Ordinalizable extends Serializable {
 
 	int ordinal();
 }
